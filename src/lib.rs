@@ -1,6 +1,5 @@
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-    }
-}
+
+//! Generic hardware abstractions for microcontrollers
+
+pub mod pin;
+pub mod digital_io;
