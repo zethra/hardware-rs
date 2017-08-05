@@ -1,5 +1,5 @@
 
-#[derive(Debug)]
+#[derive(Debug, Clone, Copy)]
 pub enum DigitalValue {
     High = 1,
     Low = 0,
