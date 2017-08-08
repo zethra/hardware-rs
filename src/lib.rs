@@ -5,3 +5,4 @@
 
 pub mod pin;
 pub mod digital_io;
+pub mod time;
