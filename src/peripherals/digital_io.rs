@@ -5,7 +5,7 @@ pub enum DigitalValue {
     Low = 0,
 }
 
-pub trait DigitalOutput<T> {
+pub trait DigitalOutput {
 
     /// Write the pin high or low
     fn write(&mut self, state: DigitalValue);
@@ -14,7 +14,7 @@ pub trait DigitalOutput<T> {
     fn read(&self) -> DigitalValue;
 }
 
-pub trait DigitalInput<T> {
+pub trait DigitalInput {
 
     /// Read the pin
     fn read(&self) -> DigitalValue;
