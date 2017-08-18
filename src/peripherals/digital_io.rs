@@ -1,7 +1,7 @@
 use core::ops::Not;
 use core::convert::From;
 
-#[derive(Debug, Clone, Copy)]
+#[derive(Debug, Clone, Copy, PartialEq)]
 pub enum DigitalValue {
     High = 1,
     Low = 0,
